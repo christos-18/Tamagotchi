@@ -16,20 +16,48 @@ namespace Tamagotchi
 
         public string name;
 
-        public static void Feed ();
-        {
-             System.Console.WriteLine("hej");
-            
-         }
+            public void Feed()
+             {
+                
+             }
+
+             public void Hi()
+             {
+
+             }
+
+            private string word = "";
+  
+             public void Teach()
+              {
+                Console.WriteLine(this.word);
+              }
+
+              public void Tick()
+              {
+
+              }
+
+              public void PrintStats()
+              {
+
+              }
+
+              public bool GetAlive()
+              {
+                return isalive;
+
+              }
+
+              private void ReduceBoredom()
+              {
+                  
+              }
+
         
 
+      
+      }   
+      
 
-
-
-
-
-
-
-
-
-    }
+    }      
