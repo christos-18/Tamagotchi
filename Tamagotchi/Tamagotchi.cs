@@ -8,25 +8,26 @@ namespace Tamagotchi
         private int hunger;
         private int boredom;
 
-        public int continueplaying = 1;
+        private int continueplaying = 1;
 
         private List<string> words = new List<string>();
 
-        bool isalive = true;
+        private bool isalive = true;
 
         private Random generator = new Random();
 
         public string name;
         public string playerName;
 
-        public void RunGame()
+
+        public void PlayAgain()
         {
-            RunGame();
+
 
             while (continueplaying == 1)
             {
 
-                Console.WriteLine("Vill du spela igen, ja eller nej?", Console.ForegroundColor = ConsoleColor.White);
+                Console.WriteLine("Din tamagotchi dog, vill du spela igen?", Console.ForegroundColor = ConsoleColor.White);
 
 
                 string answer = Console.ReadLine();
@@ -35,7 +36,7 @@ namespace Tamagotchi
                 {
                     Console.Clear();
 
-                    RunGame();
+                    //RunGame(); //jag måste köra main här
                 }
                 else if (answer.ToLower() == "nej")
                 {
@@ -44,13 +45,12 @@ namespace Tamagotchi
                 else
                 {
                     Console.Clear();
-                    Console.WriteLine("Ogiltigt svar! \n");
+                    Console.WriteLine("Ogiltigt svar! Svara bara ja eller nej. \n");
 
                 }
 
 
             }
-
         }
 
         public void Feed()
@@ -79,18 +79,19 @@ namespace Tamagotchi
 
             if (hunger >= 10 || boredom >= 10)
             {
-                return RunGame;
+                isalive = false;
+
+
+                PlayAgain();
+
             }
-
-
-
 
         }
 
         public void PrintStats()
         {
             System.Console.WriteLine($"{name} har {hunger} i hunger");
-            System.Console.WriteLine($"{name}har {boredom} i boredom");
+            System.Console.WriteLine($"{name} har {boredom} i boredom");
 
         }
 
