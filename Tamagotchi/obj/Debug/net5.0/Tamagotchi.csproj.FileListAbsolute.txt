@@ -19,3 +19,14 @@ C:\Users\chris\Documents\GitHub\Tamagotchi\Tamagotchi\obj\Debug\net5.0\Tamagotch
 C:\Users\chris\Documents\GitHub\Tamagotchi\Tamagotchi\obj\Debug\net5.0\ref\Tamagotchi.dll
 C:\Users\chris\Documents\GitHub\Tamagotchi\Tamagotchi\obj\Debug\net5.0\Tamagotchi.pdb
 C:\Users\chris\Documents\GitHub\Tamagotchi\Tamagotchi\obj\Debug\net5.0\Tamagotchi.genruntimeconfig.cache
+C:\Users\christos.potamitis\Documents\git\Tamagotchi\Tamagotchi\bin\Debug\net5.0\Tamagotchi.exe
+C:\Users\christos.potamitis\Documents\git\Tamagotchi\Tamagotchi\bin\Debug\net5.0\Tamagotchi.deps.json
+C:\Users\christos.potamitis\Documents\git\Tamagotchi\Tamagotchi\bin\Debug\net5.0\Tamagotchi.runtimeconfig.json
+C:\Users\christos.potamitis\Documents\git\Tamagotchi\Tamagotchi\bin\Debug\net5.0\Tamagotchi.runtimeconfig.dev.json
+C:\Users\christos.potamitis\Documents\git\Tamagotchi\Tamagotchi\bin\Debug\net5.0\Tamagotchi.dll
+C:\Users\christos.potamitis\Documents\git\Tamagotchi\Tamagotchi\bin\Debug\net5.0\ref\Tamagotchi.dll
+C:\Users\christos.potamitis\Documents\git\Tamagotchi\Tamagotchi\bin\Debug\net5.0\Tamagotchi.pdb
+C:\Users\christos.potamitis\Documents\git\Tamagotchi\Tamagotchi\obj\Debug\net5.0\Tamagotchi.dll
+C:\Users\christos.potamitis\Documents\git\Tamagotchi\Tamagotchi\obj\Debug\net5.0\ref\Tamagotchi.dll
+C:\Users\christos.potamitis\Documents\git\Tamagotchi\Tamagotchi\obj\Debug\net5.0\Tamagotchi.pdb
+C:\Users\christos.potamitis\Documents\git\Tamagotchi\Tamagotchi\obj\Debug\net5.0\Tamagotchi.genruntimeconfig.cache
