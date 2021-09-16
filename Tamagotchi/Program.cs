@@ -9,6 +9,7 @@ namespace Tamagotchi
         {
             System.Console.WriteLine("Hej, vad vill du döpa din tamagotchi");
             string name = Console.ReadLine();
+
             Tamagotchi tama = new Tamagotchi();
 
             int i = 10;

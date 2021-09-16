@@ -17,6 +17,7 @@ namespace Tamagotchi
         private Random generator = new Random();
 
         public string name;
+
         public string playerName;
 
 
@@ -90,8 +91,10 @@ namespace Tamagotchi
 
         public void PrintStats()
         {
-            System.Console.WriteLine($"{name} har {hunger} i hunger");
-            System.Console.WriteLine($"{name} har {boredom} i boredom");
+            name = Console.ReadLine();
+
+            System.Console.WriteLine($"Nu har {name} {hunger} i hunger");
+            System.Console.WriteLine($"Nu har {name} {boredom} i boredom");
 
         }
 
